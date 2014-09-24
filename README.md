@@ -10,7 +10,7 @@ clear names.
 - [ ] There are explinations for any commented out code.
 - [ ] Code has proper indentation.
 - [ ] Each method/function does only one thing.
-- [-  ] Variables are defined before being used.
+- [ ] Variables are defined before being used.
 - [ ] Code uses a uniform coding standard (that is explicitly stated
 somewhere).
 - [ ] The code contains no premature optimizations.
