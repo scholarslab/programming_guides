@@ -7,7 +7,7 @@ clear names.
 - [ ] All assigned variables have proper type consistency and casting.
 - [ ] There are no redundant or unused variables.
 - [ ] No deprecated methods/functions in the code
-- [ ] There are explinations for any commented out code.
+- [ ] There are explanations for any commented out code.
 - [ ] Code has proper indentation.
 - [ ] Each method/function does only one thing.
 - [ ] Variables are defined before being used.
@@ -17,7 +17,7 @@ somewhere).
 - [ ] There is no code with a generic exception and custom message.
 - [ ] The code is readable as written.
 - [ ] The code adheres to DRY principals (across the codebase).
-- [ ] Business and presentation code are seperate.
+- [ ] Business and presentation code are separate.
 - [ ] The code does not use shortcut syntax.
 - [ ] Reasonable error conditions are handled.
 
