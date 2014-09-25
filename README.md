@@ -9,8 +9,8 @@ style.
   * Rails
   * Open Source
 * [Code Review](/code-review)
-* Best Practices
-* Style
+* [Best Practices](/best-practices)
+* [Style](/style)
 
 ## High Level Guidelines
 
