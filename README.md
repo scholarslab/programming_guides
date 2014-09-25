@@ -4,7 +4,7 @@ Guides for getting things done, programming well, and programming in
 style.
 
 * Protocol
-  * Git
+  * [Git](/protocol/git)
   * PHP
   * Rails
   * Open Source
