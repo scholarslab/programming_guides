@@ -1,63 +1,44 @@
-# Code Review Checklists
+# Guides
 
-## General
-- [ ] The code does what is intended by the developer.
-- [ ] Variables are properly defined with meaningful, consistent, and
-clear names.
-- [ ] All assigned variables have proper type consistency and casting.
-- [ ] There are no redundant or unused variables.
-- [ ] No deprecated methods/functions in the code
-- [ ] There are explanations for any commented out code.
-- [ ] Code has proper indentation.
-- [ ] Each method/function does only one thing.
-- [ ] Variables are defined before being used.
-- [ ] Code uses a uniform coding standard (that is explicitly stated
-somewhere).
-- [ ] The code contains no premature optimizations.
-- [ ] There is no code with a generic exception and custom message.
-- [ ] The code is readable as written.
-- [ ] The code adheres to DRY principals (across the codebase).
-- [ ] Business and presentation code are separate.
-- [ ] The code does not use shortcut syntax.
-- [ ] Reasonable error conditions are handled.
+Guides for getting things done, programming well, and programming in
+style.
 
-## JavaScript
-- [ ] No functions or variables in the global namespace
-- [ ] Do not append to the DOM in a loop
-- [ ] Styles are kept in CSS
+* Protocol
+  * Git
+  * PHP
+  * Rails
+  * Open Source
+* [Code Review](/code-review)
+* Best Practices
+* Style
 
-## Ruby
-- [ ] Class is no longer than 100 lines of code.
-- [ ] Methods are no longer than 5 lines long.
-- [ ] No more than 4 parameters are passed to a method; no hashes.
-- [ ] Rails controllers only instantiate 1 object
-- [ ] Rails views only know about 1 instance variable
+## High Level Guidelines
 
+* Be consistent.
+* Don't rewrite code to follow this guide.
+* Don't violoate a guideline without a good reason.
+* A reason is good when you can convince a teammate.
 
-## PHP
-- [ ] A function/method shall not be longer than 40 lines.
-- [ ] There are no *magic numbers*.
-- [ ] Recursive functions have lots of tests...
+A note the the language:
 
-## SCSS
-- [ ] Generated CSS is valid.
+* "Avoid" means don't do it unless you have a good reason.
+* "Don't" means there's never a good reason.
+* "Prefer" indicates a better option and its alternative to watch out
+  for.
+* "Use" is a positive instruction.
 
-## HTML
-- [ ] HTML generally conforms to HTML5 standard.
+## Contributing
 
-## Web Applications
-- [ ] Copy has been proofed for grammer/syntax.
-- [ ] Latest versions of dependencies are being used.
-- [ ] No passwords are in the source code.
-- [ ] Images are compressed.
-- [ ] JavaScript is concatenated and compressed.
-- [ ] Dependencies for building are declared (e.g. `Gemfile`, `package.json`, `bower.json`, `composer.json`)
-- [ ] Server dependencies are explicitly noted.
-- [ ] Everyone knows who to call when something breaks.
-- [ ] Everyone (who is supposed to) can deploy the web application.
+Please read the [contribution guidelines] before submitting a pull request.
+
+In particular: **if you have commit access, please don't merge changes without
+waiting a week for everybody to leave feedback**.
+
+## License
+Portions of this guide are based on [Guides][guides]. Like Guides, this
+is distributed under the [Creative Commons Attribution License][cc].
 
 
-## Security
-- [ ] XSS has been tested.
-- [ ] Login forms (and password reset forms) are secure.
-
+[guides]: https://github.com/thoughtbot/guides
+[cc]: http://creativecommons.org/licenses/by/3.0/
+[contribution guidelines]: /CONTRIBUTING.md
