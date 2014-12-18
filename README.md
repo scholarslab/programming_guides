@@ -11,6 +11,7 @@ style.
 * [Code Review](/code-review)
 * [Best Practices](/best-practices)
 * [Style](/style)
+* [Launch](/launch)
 
 ## High Level Guidelines
 
